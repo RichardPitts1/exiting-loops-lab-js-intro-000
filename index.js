@@ -20,6 +20,11 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 
+function findFn() {
+  return 5
+}
+
+var array2 = [1, 2, 3, 4, 5]
 
 function findBy(array, findFn) {
   for (let i = 0; i < array.length; i++) {
