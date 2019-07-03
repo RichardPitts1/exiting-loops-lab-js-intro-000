@@ -30,6 +30,9 @@ function findFn() {
   return 5
 }
 
+
+
+
 function findBy(array, findFn) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] == findFn()) {
